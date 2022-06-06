@@ -1,4 +1,4 @@
-import React, {useState,useEffect,Platform} from 'react';
+import React, {useState,Platform} from 'react';
 import { View,Text,TextInput , TouchableOpacity ,KeyboardAvoidingView ,ScrollView } from 'react-native';
 import styles from './styles';
 import { StatusBar } from 'expo-status-bar';
@@ -17,8 +17,6 @@ import IconRowRight from '../../../assets/Icons/seta-direita.svg';
 
 //*Minhas fonts
 import { RFValue } from 'react-native-responsive-fontsize';
-import * as SplashScreen from 'expo-splash-screen';
-import * as Font from 'expo-font';
 
 // import { Container } from './styles';
 
