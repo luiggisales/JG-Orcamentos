@@ -25,7 +25,7 @@ const styles = StyleSheet.create({
     title_logo: {
         textAlign: "center",
         fontSize: RFValue(26),
-        fontFamily: 'Poppins-Bold',
+        fontFamily: 'Poppins_Bold',
         color: '#fff',
         bottom: RFValue(92),
     },
@@ -47,12 +47,12 @@ const styles = StyleSheet.create({
         display: 'flex',
         flexDirection: 'column',
         alignItems: 'center',
-        bottom: RFValue(60),
+        bottom: RFValue(70),
         paddingBottom: getBottomSpace() + RFValue(12),
     },
     title_header_form: {
         color: '#fff',
-        fontFamily: 'Poppins-SemiBold',
+        fontFamily: 'Poppins_SemiBold',
         fontSize: RFValue(14),
     },
     container_input:{
@@ -95,7 +95,7 @@ const styles = StyleSheet.create({
     },
     text_footer_form: {
         color: '#fff',
-        fontFamily: 'Poppins-Medium',
+        fontFamily: 'Poppins_Medium',
         fontSize: RFValue(16),
     },
     login_google_form:{
@@ -113,8 +113,21 @@ const styles = StyleSheet.create({
     },
     text_login_google_form: {
         color: '#fff',
-        fontFamily: 'Poppins-Medium',
+        fontFamily: 'Poppins_Medium',
         fontSize: RFValue(16),
+    },
+    container_botao_next: {
+        position: 'absolute',
+        top: RFValue(81),
+        right: 0,
+    },
+    botao_next: {
+        width: RFValue(64),
+        height:RFValue(64),
+        borderRadius: 45,
+        alignItems: 'center',
+        justifyContent: 'center',
+        backgroundColor: '#fff2'
     }
 }) 
 
